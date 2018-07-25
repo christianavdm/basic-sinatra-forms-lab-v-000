@@ -14,13 +14,6 @@ class App < Sinatra::Base
     @pf = params["pf"]
     @sf = params["sf"]
     @c = params["c"]
-    puts @name
-    puts @coach
-    puts @pg
-    puts @sg
-    puts @pf
-    puts @sf
-    puts @c
     erb :team
   end
 
